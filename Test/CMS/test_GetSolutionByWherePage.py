@@ -32,6 +32,7 @@ class TestGetSolutionByWherePage(unittest.TestCase): #类名必须以Test开头�
         # print(ret.url)  #请求链接
         # result是返回的实体信息
         result = ret.text
+        print(result)
         data_dict = json.loads(result)
         # print(data_dict)
         #从返回的json数据中取值

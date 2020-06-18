@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35ed3af9-c456-4596-8ca7-533fc34b4564" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python and unittest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/HTMLTestRunnerCN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/db_execute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/read_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/CMS/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/CMS/testlist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/CMS/test_AddOrUpdateBlockInfo_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/CMS/test_GetSolutionByWherePage_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/CMS/~$test_GetSolutionByWherePage_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_suites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/CMS/test_Banner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CMS/testlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CMS/testlist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/CMS/test_AddOrUpdateBlockInfo_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/CMS/test_AddOrUpdateBlockInfo_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/CMS/test_GetSolutionByWherePage_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/CMS/test_GetSolutionByWherePage_data.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,21 +54,23 @@
     <session id="-1882522517">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="py" value="25" />
+          <entry key="py" value="30" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -90,28 +78,33 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="711" />
+          <entry key="py" value="1732" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="711" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="1732" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python_unittest" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="346">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="164">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="141">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
               </folding>
@@ -122,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="1056">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
               <folding>
                 <element signature="e#441#455#0" expanded="true" />
               </folding>
@@ -134,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../test01/POST_CMSMgr-AddOrUpdateBlockInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="76" />
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -147,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -158,19 +151,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_suites.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="704">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="59" selection-start-line="59" selection-end-line="60" selection-end-column="24" />
+            <state relative-caret-position="1232">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#759#773#0" expanded="true" />
               </folding>
@@ -188,11 +172,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="261">
+              <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
               </folding>
@@ -200,11 +184,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/read_excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#632#643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/CMS/test_Banner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="e#137#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lib/db_execute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="88">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -236,20 +244,23 @@
         <option value="$PROJECT_DIR$/Test/test_AddOrUpdateBlockInfo.py" />
         <option value="$PROJECT_DIR$/Lib/db_execute.py" />
         <option value="$PROJECT_DIR$/Lib/read_excel.py" />
-        <option value="$PROJECT_DIR$/Lib/config.py" />
         <option value="$PROJECT_DIR$/test_suites.py" />
         <option value="$PROJECT_DIR$/run_all.py" />
-        <option value="$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py" />
-        <option value="$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/Lib/config.py" />
+        <option value="$PROJECT_DIR$/Test/CMS/test_banner.py" />
+        <option value="$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py" />
+        <option value="$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py" />
+        <option value="$PROJECT_DIR$/Test/CMS/test_UpdateBlockInfoStatus.py" />
+        <option value="$PROJECT_DIR$/Test/CMS/test_Banner.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="y" value="242" />
+    <option name="x" value="358" />
+    <option name="y" value="29" />
     <option name="width" value="683" />
-    <option name="height" value="242" />
+    <option name="height" value="428" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -267,6 +278,41 @@
               <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="test_AddOrUpdateBlockInfo.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="test_Banner.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestData" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -275,7 +321,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,28 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_all">
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python and unittest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_Banner.py">
     <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python and unittest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Banner.TestBanner" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python and unittest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,11 +367,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo&quot;" />
+      <option name="_new_target" value="&quot;test_Banner.TestBanner&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo.test_AddOrUpdateBlockInfo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Banner.TestBanner.test_UpdateBlockInfoStatus" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python and unittest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,11 +381,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo.test_AddOrUpdateBlockInfo&quot;" />
+      <option name="_new_target" value="&quot;test_Banner.TestBanner.test_UpdateBlockInfoStatus&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_GetSolutionByWherePage.TestGetSolutionByWherePage.test_Get_SolutionByWherePage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_AddOrUpdateBlockInfo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python and unittest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,24 +395,38 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_GetSolutionByWherePage.TestGetSolutionByWherePage.test_Get_SolutionByWherePage&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_Banner.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python and unittest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/CMS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test/CMS/test_Banner.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python tests.Unittests in test_Banner.py" />
+      <item itemvalue="Python tests.Unittests for test_Banner.TestBanner.test_UpdateBlockInfoStatus" />
+      <item itemvalue="Python tests.Unittests for test_Banner.TestBanner" />
       <item itemvalue="Python.run_all" />
-      <item itemvalue="Python.run" />
-      <item itemvalue="Python tests.Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo" />
-      <item itemvalue="Python tests.Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo.test_AddOrUpdateBlockInfo" />
-      <item itemvalue="Python tests.Unittests for test_GetSolutionByWherePage.TestGetSolutionByWherePage.test_Get_SolutionByWherePage" />
+      <item itemvalue="Python tests.Unittests in test_AddOrUpdateBlockInfo.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_Banner.py" />
+        <item itemvalue="Python tests.Unittests for test_Banner.TestBanner" />
+        <item itemvalue="Python tests.Unittests in test_AddOrUpdateBlockInfo.py" />
         <item itemvalue="Python.run_all" />
-        <item itemvalue="Python tests.Unittests for test_GetSolutionByWherePage.TestGetSolutionByWherePage.test_Get_SolutionByWherePage" />
-        <item itemvalue="Python tests.Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo.test_AddOrUpdateBlockInfo" />
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python tests.Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo" />
+        <item itemvalue="Python tests.Unittests for test_Banner.TestBanner.test_UpdateBlockInfoStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -405,38 +444,38 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_GetSolutionByWherePage_TestGetSolutionByWherePage_test_Get_SolutionByWherePage - 2020.06.07 at 18h 56m 16s.xml">
-      <configuration name="Unittests for test_GetSolutionByWherePage.TestGetSolutionByWherePage.test_Get_SolutionByWherePage" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Banner_TestBanner - 2020.06.18 at 14h 13m 34s.xml">
+      <configuration name="Unittests for test_Banner.TestBanner" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_AddOrUpdateBlockInfo_py - 2020.06.07 at 18h 58m 28s.xml">
+    <history-entry file="Unittests_for_test_Banner_TestBanner - 2020.06.18 at 14h 14m 18s.xml">
+      <configuration name="Unittests for test_Banner.TestBanner" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Banner_TestBanner - 2020.06.18 at 14h 31m 38s.xml">
+      <configuration name="Unittests for test_Banner.TestBanner" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Banner_TestBanner - 2020.06.18 at 14h 32m 23s.xml">
+      <configuration name="Unittests for test_Banner.TestBanner" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Banner_TestBanner - 2020.06.18 at 14h 37m 56s.xml">
+      <configuration name="Unittests for test_Banner.TestBanner" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_AddOrUpdateBlockInfo_py - 2020.06.18 at 14h 42m 46s.xml">
       <configuration name="Unittests in test_AddOrUpdateBlockInfo.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_GetSolutionByWherePage_py - 2020.06.09 at 10h 46m 52s.xml">
-      <configuration name="Unittests in test_GetSolutionByWherePage.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_AddOrUpdateBlockInfo_py - 2020.06.18 at 14h 44m 07s.xml">
+      <configuration name="Unittests in test_AddOrUpdateBlockInfo.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_GetSolutionByWherePage_py - 2020.06.09 at 10h 47m 30s.xml">
-      <configuration name="Unittests in test_GetSolutionByWherePage.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_AddOrUpdateBlockInfo_py - 2020.06.18 at 14h 44m 32s.xml">
+      <configuration name="Unittests in test_AddOrUpdateBlockInfo.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_GetSolutionByWherePage_py - 2020.06.09 at 10h 48m 02s.xml">
-      <configuration name="Unittests in test_GetSolutionByWherePage.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Banner_TestBanner - 2020.06.18 at 14h 44m 50s.xml">
+      <configuration name="Unittests for test_Banner.TestBanner" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_AddOrUpdateBlockInfo_TestAddOrUpdateBlockInfo - 2020.06.09 at 11h 05m 34s.xml">
-      <configuration name="Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_AddOrUpdateBlockInfo_TestAddOrUpdateBlockInfo_test_AddOrUpdateBlockInfo - 2020.06.09 at 11h 46m 30s.xml">
-      <configuration name="Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo.test_AddOrUpdateBlockInfo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_AddOrUpdateBlockInfo_TestAddOrUpdateBlockInfo_test_AddOrUpdateBlockInfo - 2020.06.09 at 11h 48m 16s.xml">
-      <configuration name="Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo.test_AddOrUpdateBlockInfo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_AddOrUpdateBlockInfo_TestAddOrUpdateBlockInfo_test_AddOrUpdateBlockInfo - 2020.06.09 at 12h 05m 43s.xml">
-      <configuration name="Unittests for test_AddOrUpdateBlockInfo.TestAddOrUpdateBlockInfo.test_AddOrUpdateBlockInfo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_GetSolutionByWherePage_TestGetSolutionByWherePage_test_Get_SolutionByWherePage - 2020.06.09 at 12h 06m 27s.xml">
-      <configuration name="Unittests for test_GetSolutionByWherePage.TestGetSolutionByWherePage.test_Get_SolutionByWherePage" configurationId="tests" />
+    <history-entry file="Unittests_in_test_Banner_py - 2020.06.18 at 14h 46m 06s.xml">
+      <configuration name="Unittests in test_Banner.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -446,27 +485,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75510204" visible="true" weight="0.19494048" />
-      <window_info id="Structure" order="1" sideWeight="0.24489796" side_tool="true" weight="0.14955357" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61538464" weight="0.20907739" />
+      <window_info id="Structure" order="1" sideWeight="0.3846154" side_tool="true" weight="0.40550596" />
+      <window_info id="Favorites" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5238908" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37264958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41538462" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32820514" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41538462" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="调试" order="10" weight="0.32935154" />
+      <window_info anchor="bottom" id="调试" order="10" weight="0.43931624" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61538464" visible="true" weight="0.20907739" />
+      <window_info id="Structure" order="1" sideWeight="0.3846154" side_tool="true" weight="0.40550596" />
+      <window_info id="Favorites" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37264958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32820514" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41538462" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="调试" order="10" weight="0.43931624" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -519,77 +579,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py">
+    <entry file="file://$PROJECT_DIR$/test_suites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="e#137#152#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="1056">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding>
             <element signature="e#441#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test01/POST_CMSMgr-AddOrUpdateBlockInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_suites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="59" selection-start-line="59" selection-end-line="60" selection-end-column="24" />
+        <state relative-caret-position="1232">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#759#773#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py">
+    <entry file="file://$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="141">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#137#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/CMS/test_UpdateBlockInfoStatus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="16" lean-forward="true" selection-end-line="64" />
           <folding>
             <element signature="e#137#152#0" expanded="true" />
           </folding>
@@ -598,7 +628,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lib/read_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="22">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#632#643#0" expanded="true" />
@@ -606,12 +636,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../test01/POST_CMSMgr-AddOrUpdateBlockInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/db_execute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="88">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/CMS/test_Banner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#137#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <element signature="e#137#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
