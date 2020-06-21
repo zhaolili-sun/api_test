@@ -1,3 +1,5 @@
+#python调用c#
+
 import clr  # pythonnet
 
 print('python call K8Cscan c# dll')
