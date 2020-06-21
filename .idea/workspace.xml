@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="35ed3af9-c456-4596-8ca7-533fc34b4564" name="默认" comment="添加全局变量">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/read_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CMS/test_AddOrUpdateBlockInfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/CMS/test_Banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CMS/test_Banner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CMS/test_GetSolutionByWherePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/CMS/testlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CMS/testlist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/CMS/test_GetSolutionByWherePage_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/CMS/test_GetSolutionByWherePage_data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,14 +76,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2026" />
-          <entry key="txt" value="16" />
+          <entry key="py" value="2050" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="2026" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="2050" />
         </counts>
       </usages-collector>
     </session>
@@ -282,6 +271,16 @@
               <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_unittest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestData" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +290,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../华为机试/字符串.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -440,7 +439,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592463038626</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加全局变量">
+      <created>1592699110804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592699110804</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加全局变量">
+      <created>1592699204123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592699204123</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加全局变量">
+      <created>1592699810782</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592699810782</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -475,7 +495,7 @@
       <configuration name="Unittests for test_Banner.TestBanner" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="2">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -487,17 +507,17 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61538464" visible="true" weight="0.24851191" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61538464" visible="true" weight="0.24851191" />
       <window_info id="Structure" order="1" sideWeight="0.3846154" side_tool="true" weight="0.40550596" />
       <window_info id="Favorites" order="2" weight="0.3296131" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41538462" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41538462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32820514" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41538462" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41538462" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="调试" order="10" weight="0.43931624" />
