@@ -11,14 +11,13 @@ import ast
 from Lib.read_excel import *
 from Lib.db_execute import *
 from Lib.log import *
-
+# from run import discover
+# print(discover())
 class TestAddOrUpdateBlockInfo(unittest.TestCase): #类名必须以Test开头，必须继承unittest.TestCase类
     @classmethod
     def setUpClass(self):  # 整个测试类只执行一次
         # cls.data_list 同 self.data_list 都是该类的公共属性
-        self.data_list = excel_to_list("E:\Python\python_unittest\TestData\CMS\\test_AddOrUpdateBlockInfo_data.xlsx","TestAddOrUpdateBlockInfo")  # 读取该测试类所有用例数据
-        self.data = globals()
-        return self.data
+        self.data_list = excel_to_list("E:\Python\python_unittest\TestData\CMS\\test_AddOrUpdateBlockInfo_data.xlsx","TestAddOrUpdateBlockInfo")  # 读取该测试类所有用例数
     #类中的方法，必须有一个额外的第一个参数self,self是类的一个实例
     def test_AddOrUpdateBlockInfo(self):
         case_data = get_test_data(self.data_list, 'test_AddOrUpdateBlockInfo')  # 从数据列表中查找到该用例数据
@@ -33,9 +32,6 @@ class TestAddOrUpdateBlockInfo(unittest.TestCase): #类名必须以Test开头，
         # result是返回的实体信息
         result = ret.text
         data_dict = json.loads(result)
-        return data_dict
-        self.data['AddOrUpdateBlockInfo'] = data_dict
-        print(data_dict)
         # #使用封装的数据库查询
         id = query_db("SELECT top 1 SC_ID from CMS_SolutionContent ORDER BY CREATETIME DESC")
         # #断言

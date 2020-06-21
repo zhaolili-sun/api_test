@@ -36,10 +36,10 @@ import os
 
 #log日志配置
 logging.basicConfig(level=logging.DEBUG,  # log level
-                    format='[%(asctime)s]~~ %(levelname)s   [%(funcName)s: %(filename)s, %(lineno)d]   %(message)s',  # log格式
+                    format='[%(asctime)s]~~%(levelname)s  [%(funcName)s: %(filename)s, %(lineno)d]   %(message)s',  # log格式
                     datefmt='%Y-%m-%d %H:%M:%S',  # 日期格式
                     filename='E:\Python\python_unittest\Log\log.txt',  # 日志输出文件
-                    filemode='w')  # 追加模式
+                    filemode='a')  # 追加模式
 
 #项目路径
 # prj_path = os.path.dirname(os.path.abspath('E:\Python\python and unittest\Lib'))  # 当前文件的绝对路径的上一级，__file__指当前文件

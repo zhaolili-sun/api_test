@@ -5,6 +5,7 @@
 编写一个Test开头（必须）的类，并继承unittest.TestCase，做为测试类
 在类中编写一个test_开头（必须）的方法，作为用例
 """
+#coding=utf-8
 import unittest
 import requests
 import pyodbc

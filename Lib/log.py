@@ -1,6 +1,6 @@
 # from config import *
 # import json
-
+#
 # def log_case_info(case_name, url, data, expect_res, res_text):
 #     if isinstance(data,dict):
 #         data = json.dumps(data, ensure_ascii=False)  # 如果data是字典格式，转化为字符串
@@ -25,7 +25,7 @@ class Logger(object):
     }
 
     def __init__(self, filename="E:\Python\python_unittest\Log\Log.txt", level="debug", when="D", backupCount=3,
-                 fmt='[%(asctime)s]~~ %(levelname)s   [%(funcName)s: %(filename)s, %(lineno)d]   %(message)s'):
+                 fmt='[%(asctime)s]~~%(levelname)s [%(funcName)s: %(filename)s, %(lineno)d]   %(message)s'):
         # 设置日志输出格式
         format_str = logging.Formatter(fmt)
         # 设置日志在控制台输出

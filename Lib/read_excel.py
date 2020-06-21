@@ -42,7 +42,8 @@ def get_test_data(data_list, case_name):
             return case_data
             # 如果查询不到会返回None
 
-# if __name__ == '__main__':   # 测试一下自己的代码
-#     data_list = excel_to_list("E:\Python\python and unittest\TestData\CMS\\test_GetSolutionByWherePage_data.xlsx", "TestGetSolutionByWherePage")  # 读取excel，TestGetSolutionByWherePage工作簿的所有数据
-#     case_data = get_test_data(data_list, 'test_Get_SolutionByWherePage')  # 查找用例'test_Get_SolutionByWherePage'的数据
-#     print(case_data)
+if __name__ == '__main__':   # 测试一下自己的代码
+    data_list = excel_to_list("E:\Python\python_unittest\TestData\CMS\\test_GetSolutionByWherePage_data.xlsx", "TestGetSolutionByWherePage")  # 读取excel，TestGetSolutionByWherePage工作簿的所有数据
+    print(data_list)
+    case_data = get_test_data(data_list, 'test_Get_SolutionByWherePage')  # 查找用例'test_Get_SolutionByWherePage'的数据
+    print(case_data)

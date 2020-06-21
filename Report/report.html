@@ -116,9 +116,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">CMSTest</h1>
 <p class='attribute'><strong>测试人员 : </strong> zhaolili</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-06-18 14:41:35</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:02.803674</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-06-19 09:57:34</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:02.835813</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 4，通过 4，通过率= 100.00%</p>
 
 <p class='description'>测试结果统计</p>
 </div>
@@ -127,8 +127,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 3 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 4 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 4 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -164,16 +164,41 @@ function html_escape(s) {
 
 <tr class='passClass warning'>
     <td>test_Banner.TestBanner</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',2)" class="detail" id='c2'>详细</a></td>
 </tr>
 
 <tr id='pt2_1' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_AddOrUpdateBlockInfo</div></td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_UpdateBlockInfoStatus</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in">
+    <pre>
+    
+pt2_2: {'filter': "{'Id': '69634990-51cd-48cb-b783-a54276df8171', 'Status': '4', 'AppId': 'EE458DB3-65D7-4710-B666-65CE6394AF5F'}", 'token': 'A01eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJhYWRjNzM0My02NWJjLTQxOGUtODY1ZS1jN2MzMzIyZDBkYWQiLCJzZXNzaW9uX2lkIjoiMjQzOTM0MWNhMzI0NGNjMjg5YjU1N2U5OTUxOTJjNWZSRFMxIiwidG9rZW5faWQiOiIxNzE1NGJhZTYzODg0M2ExYjQ4NGFjY2MyZTg2NmIxMCIsInJlZnJlc2h0b2tlbl9pZCI6ImUwZTQ3NmI2ZjQ3YTQ5ZDNhN2Y0MzliNzk3NTJhZWE3IiwidmFsaWRhdGVfdHlwZSI6MSwic2NvcGUiOiIqIiwic291cmNlIjoiQSIsImNsaWVudF9pcCI6IjIyMy43OS4zNy44NCIsImV4cCI6MTU5MjU3Mjg1OS4wLCJjcmVhdGVfZnJvbSI6Im1haW4iLCJyZHNfZmxhZyI6MX0.G1cKGSKxi5J9kz0Ga1ktld3OtzVesQ9a4-DiGOzFkqA'}
+1
+[2020-06-19 09:57:35,764]~~ DEBUG   [test_UpdateBlockInfoStatus: test_Banner.py, 60]   测试用例：test_AddOrUpdateBlockInfo
+[2020-06-19 09:57:35,764]~~ DEBUG   [test_UpdateBlockInfoStatus: test_Banner.py, 61]   url：http://sgi.wyqcd.cn:7777/api/invoke?SID=CMSMgr-UpdateBlockInfoStatus
+[2020-06-19 09:57:35,765]~~ DEBUG   [test_UpdateBlockInfoStatus: test_Banner.py, 62]   请求参数：{'filter': "{'Id': '69634990-51cd-48cb-b783-a54276df8171', 'Status': '4', 'AppId': 'EE458DB3-65D7-4710-B666-65CE6394AF5F'}", 'token': 'A01eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJhYWRjNzM0My02NWJjLTQxOGUtODY1ZS1jN2MzMzIyZDBkYWQiLCJzZXNzaW9uX2lkIjoiMjQzOTM0MWNhMzI0NGNjMjg5YjU1N2U5OTUxOTJjNWZSRFMxIiwidG9rZW5faWQiOiIxNzE1NGJhZTYzODg0M2ExYjQ4NGFjY2MyZTg2NmIxMCIsInJlZnJlc2h0b2tlbl9pZCI6ImUwZTQ3NmI2ZjQ3YTQ5ZDNhN2Y0MzliNzk3NTJhZWE3IiwidmFsaWRhdGVfdHlwZSI6MSwic2NvcGUiOiIqIiwic291cmNlIjoiQSIsImNsaWVudF9pcCI6IjIyMy43OS4zNy44NCIsImV4cCI6MTU5MjU3Mjg1OS4wLCJjcmVhdGVfZnJvbSI6Im1haW4iLCJyZHNfZmxhZyI6MX0.G1cKGSKxi5J9kz0Ga1ktld3OtzVesQ9a4-DiGOzFkqA'}
+[2020-06-19 09:57:35,765]~~ DEBUG   [test_UpdateBlockInfoStatus: test_Banner.py, 63]   期望结果：1
+[2020-06-19 09:57:35,766]~~ DEBUG   [test_UpdateBlockInfoStatus: test_Banner.py, 64]   实际结果：1
+
+
+    </pre>
+    </div>
+    </td>
 </tr>
 
 <tr class='passClass warning'>
@@ -196,12 +221,7 @@ function html_escape(s) {
     <div id='div_pt3_1' class="collapse in">
     <pre>
     
-pt3_1: {"total":409,"rows":[{"Id":"4bd3cc84-28f0-442d-a82c-fd2a626c7fc5","Title":"0","IconUrl":"http://resource.wyqcd.cn/teldimage/107/18bb37afcd90459e9c2655f11c11a3df.jpg","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/7682659a7c764b04b5461c8a7eb53a5a.png","Ord":0,"Creator":"wangcx1","CreateTime":"2020-05-10 18:00:59","LastModifier":"wangcx1","LastModifyTime":"2020-05-10 18:00:59","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4BE20E31-3B59-4833-8F45-35FA65B87B2F","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4C3299AF-D8BA-4B69-9A15-B893B20F7206","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4DE9124D-45CA-4F8C-A169-A9D85AF268C5","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4E35AA67-9E30-4A68-902C-4B67AD956524","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4ED425FC-DB88-4EAA-8A1E-F7844EB3821E","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4FCE6343-A90B-4CA3-A251-D35C22293826","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"5148E660-752B-4C32-9857-EF81DC3D9572","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"52D5187B-B1A6-4DCA-8531-D404FAAB02C4","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"5320C7BB-5B85-4FD3-B626-204FEB762A6F","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"}]}
-[2020-06-18 14:41:37,804]~~ DEBUG   [test_Get_SolutionByWherePage: test_GetSolutionByWherePage.py, 48]   测试用例：test_Get_SolutionByWherePage
-[2020-06-18 14:41:37,805]~~ DEBUG   [test_Get_SolutionByWherePage: test_GetSolutionByWherePage.py, 49]   url：http://sgi.wyqcd.cn:7777/api/invoke?SID=CMSMgr-GetSolutionByWherePage
-[2020-06-18 14:41:37,805]~~ DEBUG   [test_Get_SolutionByWherePage: test_GetSolutionByWherePage.py, 50]   请求参数：{"filter":'{"Appid":"","page":1,"rows":10}',"token":"A01eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJhYWRjNzM0My02NWJjLTQxOGUtODY1ZS1jN2MzMzIyZDBkYWQiLCJzZXNzaW9uX2lkIjoiMjQzOTM0MWNhMzI0NGNjMjg5YjU1N2U5OTUxOTJjNWZSRFMxIiwidG9rZW5faWQiOiIxNzE1NGJhZTYzODg0M2ExYjQ4NGFjY2MyZTg2NmIxMCIsInJlZnJlc2h0b2tlbl9pZCI6ImUwZTQ3NmI2ZjQ3YTQ5ZDNhN2Y0MzliNzk3NTJhZWE3IiwidmFsaWRhdGVfdHlwZSI6MSwic2NvcGUiOiIqIiwic291cmNlIjoiQSIsImNsaWVudF9pcCI6IjIyMy43OS4zNy44NCIsImV4cCI6MTU5MjU3Mjg1OS4wLCJjcmVhdGVfZnJvbSI6Im1haW4iLCJyZHNfZmxhZyI6MX0.G1cKGSKxi5J9kz0Ga1ktld3OtzVesQ9a4-DiGOzFkqA"}
-[2020-06-18 14:41:37,806]~~ DEBUG   [test_Get_SolutionByWherePage: test_GetSolutionByWherePage.py, 51]   期望结果：('4bd3cc84-28f0-442d-a82c-fd2a626c7fc5', )
-[2020-06-18 14:41:37,807]~~ DEBUG   [test_Get_SolutionByWherePage: test_GetSolutionByWherePage.py, 52]   实际结果：4bd3cc84-28f0-442d-a82c-fd2a626c7fc5
+pt3_1: {"total":410,"rows":[{"Id":"4bd3cc84-28f0-442d-a82c-fd2a626c7fc5","Title":"0","IconUrl":"http://resource.wyqcd.cn/teldimage/107/18bb37afcd90459e9c2655f11c11a3df.jpg","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/7682659a7c764b04b5461c8a7eb53a5a.png","Ord":0,"Creator":"wangcx1","CreateTime":"2020-05-10 18:00:59","LastModifier":"wangcx1","LastModifyTime":"2020-05-10 18:00:59","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4BE20E31-3B59-4833-8F45-35FA65B87B2F","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4C3299AF-D8BA-4B69-9A15-B893B20F7206","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4DE9124D-45CA-4F8C-A169-A9D85AF268C5","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4E35AA67-9E30-4A68-902C-4B67AD956524","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4ED425FC-DB88-4EAA-8A1E-F7844EB3821E","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"4FCE6343-A90B-4CA3-A251-D35C22293826","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"5148E660-752B-4C32-9857-EF81DC3D9572","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"52D5187B-B1A6-4DCA-8531-D404FAAB02C4","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"},{"Id":"5320C7BB-5B85-4FD3-B626-204FEB762A6F","Title":"方案管理","IconUrl":"http://resource.wyqcd.cn/teldimage/107/057536aadea7416aaf2fc3257fdd7bc7.png","FocusIconUrl":"http://resource.wyqcd.cn/teldimage/107/1db4dd82ccdf4101975a8c6737096b0b.png","Ord":1,"Creator":"15066254192","CreateTime":"2019-03-14 09:28:25","LastModifier":"15066254192","LastModifyTime":"2019-03-14 09:28:25","AppId":"EE458DB3-65D7-4710-B666-65CE6394AF5F","AppName":"特来电APP"}]}
 
 
     </pre>
@@ -211,8 +231,8 @@ pt3_1: {"total":409,"rows":[{"Id":"4bd3cc84-28f0-442d-a82c-fd2a626c7fc5","Title"
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>3</td>
-    <td>3</td>
+    <td>4</td>
+    <td>4</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>

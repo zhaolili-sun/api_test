@@ -12,6 +12,7 @@ from Lib.read_excel import *
 from Lib.db_execute import *
 from Lib.log import *
 
+
 class TestBanner(unittest.TestCase): #类名必须以Test开头，必须继承unittest.TestCase类
     @classmethod
     def setUpClass(self):  # 整个测试类只执行一次
