@@ -9,6 +9,6 @@ from run import *
 # print(list1)
 # run(list1)
 # run_all()
-# run(collect())
+    run(collect())
 
 
