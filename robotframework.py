@@ -1,5 +1,5 @@
 def dic(a):
-    print(a)
+    return a
 
 
 

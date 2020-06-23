@@ -19,7 +19,6 @@ class TestBanner(unittest.TestCase): #类名必须以Test开头，必须继承un
         #cls.data_list 同 self.data_list 都是该类的公共属性
         self.data_list1 = excel_to_list("E:\Python\python_unittest\TestData\CMS\\test_AddOrUpdateBlockInfo_data.xlsx","TestAddOrUpdateBlockInfo")  # 读取该测试类所有用例数据
         self.data_list2 = excel_to_list("E:\Python\python_unittest\TestData\CMS\\test_UpdateBlockInfoStatus_data.xlsx","TestUpdateBlockInfoStatus")  # 读取该测试类所有用例数据
-
         self.g = globals()
     #类中的方法，必须有一个额外的第一个参数self,self是类的一个实例
     def test_AddOrUpdateBlockInfo(self):

@@ -8,6 +8,7 @@ from run import *
 # list1 = makesuite_by_testlist('E:\Python\python_unittest\Test\CMS\\testlist.txt')
 # print(list1)
 # run(list1)
-run_all()
+# run_all()
+run(collect())
 
 

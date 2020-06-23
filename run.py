@@ -56,16 +56,20 @@ def makesuite_by_testlist(testlist_file):  # test_list_file配置在config/confi
         testlist = f.readlines()
 
     testlist = [i.strip() for i in testlist if not i.startswith("#")]   # 去掉每行结尾的"/n"和 #号开头的行
+    print(testlist)
 
     suite = unittest.TestSuite()
     all_cases = collect()  # 所有用例，调用collect()方法
+    print(all_cases)
+    print(all_cases.countTestCases())
+
     for case in all_cases:  # 从所有用例中匹配用例方法名
         if case._testMethodName in testlist:
+            print(case._testMethodName)
             suite.addTest(case)
     return suite
-#
+
 # if __name__ == '__main__':
 #     list1 = makesuite_by_testlist('E:\Python\python_unittest\Test\CMS\\testlist.txt')
 #     print(list1)
 #     run(list1)
-
